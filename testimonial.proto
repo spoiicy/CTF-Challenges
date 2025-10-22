@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service TestimonialService {
+    rpc SubmitTestimonial (TestimonialSubmission) returns (GenericReply) {}
+}
+
+message TestimonialSubmission {
+    string customer = 1;
+    string testimonial = 2;
+}
+
+message GenericReply {
+    string message = 1;
+}
