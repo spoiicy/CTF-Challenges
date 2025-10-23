@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
 # Flag is hidden in the database
-FLAG = "FLAG{m30w_m30w_sql_inj3ct10n_purr_f3ct}"
+FLAG = "CTF{m30w_m30w_sql_inj3ct10n_purr_f3ct}"
 
 WAF_PREFIX_CHECK_LEN = 8192
 
